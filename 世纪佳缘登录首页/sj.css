@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    width: 1016px;
+    margin: 0 auto;
+}
+
+/* 头 */
+.new_header {
+    height: 70px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+}
+
+.new_header .form_login {
+    margin: 20px 0 0 0;
+    float: left;
+}
+
+.new_header .form_login input {
+    height: 23px;
+    width: 120px;
+    padding: 0 4px 0 10px;
+    margin-right: 8px;
+    float: left;
+    color: #aaa;
+    border: 1px #d9d9d9 solid;
+}
+
+.new_header .form_login button {
+    width: 67px;
+    height: 25px;
+    background-position: -816px -188px;
+    border: 0;
+    float: left;
+    background-color: rgb(124, 185, 235);
+}
+
+/* 鼠标经过颜色变化 */
+.new_header .form_login button:hover {
+    background-color: rgb(111, 123, 235);
+}
+
+.new_header .form_login .other_login1 {
+    float: left;
+    font-size: 12px;
+    color: #aaa;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.new_header .form_login .other_login1 span {
+    float: left;
+}
+
+.img3 {
+    width: 63px;
+    height: 17px;
+    margin-left: 54px;
+    background: url(./imgs/login_bg.gif);
+
+}
+
+/* 
+.new_header .from_login .other_login1 a{
+        width: 16px;
+        height: 16px;
+        margin-left: 5px;   
+        
+        background-image: url(./images/login_bg.gif);
+}
+.new_header .form_login .other_login1 .qq_login {
+    background-position: 0 0;
+}
+
+.new_header .form_login .other_login1 .wb_login {
+    background-position: -16px 0;
+}
+
+.new_header .form_login .other_login1 .baidu_login {
+    background-position: -32px 0;
+}
+
+.new_header .form_login .other_login1 .wx_login {
+    background-position: -48px 0;
+} */
+
+.new_header .form_login .other_login2 {
+    float: left;
+}
+
+.new_header .form_login .other_login2 a {
+    font-size: 12px;
+    color: #aaa;
+    /* 下划线隐藏 */
+    text-decoration: none;
+    margin: 5px 0 0 18px;
+}
+
+/* 登录注册部分 */
+.new_login_register {
+    height: 450px;
+    position: relative;
+    background: url(./imgs/big_bg4.jpg) no-repeat center top;
+}
+
+.register_form {
+    padding: 10px 0;
+}
+
+.form_reg {
+    width: 398px;
+    height: 380px;
+    background-color: #fff;
+    margin-top: 35px;
+
+}
+
+.user_reg .form_reg h2 {
+    padding: 15px 0 10px 0;
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #8e8e8e;
+    border-bottom: 1px solid #f4f3f3;
+    text-align: center;
+}
+
+.user_reg .form_reg dl {
+    margin-top: 15px;
+}
+
+/* 清除每一个dl带来的浮动效果 */
+.user_reg .form_reg dl:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+dt {
+    width: 70px;
+    padding: 6px;
+    text-align: right;
+    float: left;
+}
+
+dd {
+    width: 272px;
+    height: 32px;
+    line-height: 32px;
+    margin-left: 10px;
+    float: left;
+    text-align: left;
+}
+
+#nv {
+    margin: 9px 0 0 43px;
+}
+
+/* 性别小图标 */
+.user_reg .form_reg .sex label {
+    width: 18px;
+    height: 32px;
+    padding-left: 22px;
+    margin-left: 3px;
+    background: url(./imgs/sex.jpg) no-repeat;
+}
+
+/* 生日和所在地区的输入框样式 */
+.user_reg .form_reg .w12 input {
+    width: 253px;
+    height: 32px;
+    padding-left: 15px;
+}
+
+/* 婚姻状况*/
+.user_reg .form_reg .hy input {
+    margin: 9px 0 0 40px;
+}
+
+#weihun {
+    margin-left: 0;
+}
+
+/* 免费注册 */
+
+.user_reg .form_reg .regInput button {
+    width: 229px;
+    height: 48px;
+    margin-top: 15px;
+    margin-left: 93px;
+    background-color: rgb(231, 86, 86);
+    border: 0;
+    font-size: 20px;
+    color: #fFf;
+}
+
+/* 登录 */
+.user_reg .form_reg .denglu {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.user_reg .form_reg .denglu a {
+    color: #929191;
+    font-size: 14px;
+}
+
+/* 鼠标滑到,下划线隐藏 */
+.user_reg .form_reg .denglu a:hover {
+    text-decoration: none;
+}
+
+/* 注册会员 */
+.new_register_vip {
+    height: 78px;
+    background-color: #ededed;
+    position: relative;
+}
+
+.reg_vip {
+    width: 1000px;
+    margin: 0 10%;
+}
+
+.new_register_vip .publicist_box {
+    height: 78px;
+    width: 125%;
+    /* background-position: 0 -78px;
+    background: url(./imgs/sprite.png); */
+    background: url(./imgs/2yhy.png);
+}
+
+/* 优质会员 */
+.new_userbest {
+    background-color: #303438;
+    padding: 87px 0;
+    position: relative;
+}
+
+.userbest {
+   width: 1000px;
+   margin: 0 auto;
+}
+.new_userbest .best_search li .s_1{
+    padding-left: 30px;
+    position: relative;
+}
+.new_userbest .best_search li .s_2{
+    padding-left: 49px;
+}
+.new_userbest .best_search li .s_3{
+    padding-left: 10px;
+}
+.new_userbest .best_search li {
+    height: 28px;
+    line-height: 28px;
+    float: left;
+    color: #ccc;
+}
+li {
+    list-style: none;
+}
+h3{
+    margin-right: 20px;
+}
+/* 选择下拉框部分 */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #111111;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    padding: 3px 16px;
+}
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+b{
+    font-size: 24px;
+    font-weight: 400;
+    float: left;
+    padding-right: 10px;
+}
+.new_userbest .best_search li .btn_submit {
+    width: 137px;
+    height: 36px;
+    display: block;
+    border: 0;
+    font-size: 20px;
+    margin-top: -3px;
+    background-color: rgb(92, 158, 219);
+}
+.new_userbest .best_search li .value {
+    width: 84px;
+    height: 27px;
+    line-height: 26px;
+    font-size: 16px;
+    color: #999;
+    padding-left: 10px;
+    border: 1px #666 solid;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: #303438;
+    cursor: pointer;
+}
+.new_userbest h2{
+    height: 55px;
+    line-height: 50px;
+    padding: 29px 0 0 93px;
+    font-size: 28px;
+    color: #eff0f0;
+    background-color: #303438;
+    background: url(./imgs/人头.png) no-repeat;
+}
+.user_img{
+    margin: 0 -74px;
+}
+
+/* 服务申请 */
+.new_service {
+    background-color: #52c9eb;
+    height: 115px;
+    position: relative;
+}
+
+.new_service .service {
+    position: relative;
+}
+
+.service {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.vip_img {
+    width: 102px;
+    height: 102px;
+    position: absolute;
+
+}
+
+.new_service h2 {
+    color: #fff;
+    font-size: 34px;
+    position: absolute;
+    top: 35px;
+    left: 12%;
+}
+
+.new_service .btn_shenqing {
+    background: url(./imgs/sprite.png);
+    width: 167px;
+    height: 57px;
+    background-position: -210px -188px;
+    position: absolute;
+    top: 31px;
+    right: 10px;
+    /* 文字链接消失 */
+    text-indent: -9999px;
+}
+
+/* 底部1 */
+.new_footer1 {
+    height: 92px;
+    background-color: yellowgreen;
+}
+
+.foot1 {
+    background-color: yellow;
+    height: 100%;
+    padding-top: 20px;
+}
+
+/* 底部2 */
+.new_footer2 {
+    height: 27px;
+    background-color: rgb(212, 110, 173);
+}
+
+.foot2 {
+    height: 100%;
+    background-color: mediumaquamarine;
+}
+
+/* 底部3 */
+.new_footer3 {
+    height: 50px;
+    background-color: rgb(78, 132, 202);
+}
